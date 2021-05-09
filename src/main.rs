@@ -16,7 +16,7 @@ fn main() {
 
     let mut cpu = CPU::new(display);
     
-    cpu.load_game("games/UFO".to_string());
+    cpu.load_game("games/PONG".to_string());
 
     let mut event_pump = sdl_context.event_pump().unwrap();
     'main: loop {
